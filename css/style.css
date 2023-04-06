@@ -436,6 +436,7 @@ a:active {
 }
 
 /*--------- Start Portfolio Area -------------*/
+
 .portfolio-area .primary-btn {
   color: #fff;
   background-color: #bac964;
@@ -546,6 +547,12 @@ a:active {
   backface-visibility: hidden;
 }
 
+@media (max-width: 640px) {
+  .video {
+    width: 50%;
+    height: 50%;
+  }
+}
 .middle {
   -webkit-transition: 0.5s ease;
   -o-transition: 0.5s ease;
